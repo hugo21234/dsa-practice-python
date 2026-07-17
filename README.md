@@ -18,9 +18,11 @@ Cada pasta é um exercício independente, com:
 
 ## Exercícios
 
-| Projeto | Tema | Estruturas Praticadas |
-|---|---|---|
-| [Projeto 2 — Player Ranking](./projeto-2-player-ranking/) | Ranking de jogadores por score de impacto | `dict`, `sorted`, `heap` |
+| # | Pasta | Tema | Estruturas Praticadas | Complexidade |
+|---|---|---|---|---|
+| 01 | [desafio-01-contagem-pedidos](./desafio-01-contagem-pedidos/) | Contagem de pedidos por status | `dict`, frequency map | O(N) |
+| 02 | [desafio-02-contagem-eventos](./desafio-02-contagem-eventos/) | Contagem de eventos + top 2 por frequência | `dict`, top-K linear | O(N + M) |
+| — | [player-ranking-dsa](./player-ranking-dsa/) | Ranking de jogadores por score de impacto | `dict`, `sorted`, `heap` | O(N log N) |
 
 ---
 
